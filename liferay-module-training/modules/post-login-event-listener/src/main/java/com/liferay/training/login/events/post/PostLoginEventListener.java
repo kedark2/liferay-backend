@@ -30,7 +30,7 @@ public class PostLoginEventListener implements LifecycleAction {
 	@Override
 	public void processLifecycleEvent(LifecycleEvent lifecycleEvent) throws ActionException {
 		try {
-			System.out.println("processLifecycleEvent");
+			System.out.println("processLifecycleEvent: post-login-event-listener module");
 			
 			User user = _userService.getCurrentUser();
 			
